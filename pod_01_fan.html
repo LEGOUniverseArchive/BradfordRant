@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+			"http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+	<title>The Bradford Rant Institute of Cosmic Kinesis</title>
+	<link rel="shortcut icon" href="images/favicon.gif" />
+	<link rel="stylesheet" href="stylesheets/screen.css" type="text/css" media="screen" />
+
+  /*]]>*/
+  </style><!-- Load the slideshow JavaScript code -->
+
+  <script type="text/javascript" src="javascripts/slideshow.js">
+  </script>
+  <script type="text/javascript">
+  //<![CDATA[
+  <!--
+
+  SLIDES1 = new slideshow("SLIDES1");
+  SLIDES1.prefetch = 3;
+  SLIDES1.timeout = 7000;
+  SLIDES1.repeat = true;
+  SLIDES1.current = 0
+  
+  SLIDES1.add_slide(new slide("images/slideshow/fan/fan_pod1_01.jpg", "", ""))
+  SLIDES1.add_slide(new slide("images/slideshow/fan/fan_pod1_02.jpg", "", ""))
+  SLIDES1.add_slide(new slide("images/slideshow/fan/fan_pod1_03.jpg", "", ""))
+
+
+  
+  
+  //-->
+  //]]>
+  </script>
+
+</head>
+<body bgcolor="#AAAAAA" text="#000000" link="#009933" alink="#000000" vlink="#009933" marginwidth=0 marginheight=0 leftmargin=0 topmargin=20>
+<center>
+
+<!-- Maintable START -->
+<div class="intro">
+<p>
+<span>Fan version of Pod 1 by cama8</span></p>
+</div>
+<table border=0 width=750 cellspacing=0 cellpadding=0 bgcolor="#FFFFFF">
+	<tr>
+		<td valign="top" align="center"><img name="SLIDES1IMG" src="images/slideshow/fan/fan_pod1_01.jpg" vspace="10" border="0" style="filter:progid:DXImageTransform.Microsoft.Fade()" alt="Slideshow image" width="" height="" /></td>
+	</tr>
+	<tr>
+		<td align=right class="builder_div"><p><a href="javascript:void(0)" onclick="SLIDES1.previous();return false;">Previous image</a> | <a href="javascript:void(0)" onclick="SLIDES1.next();return false;">Next image</a></p><br></td>
+	</tr>
+	<tr> 
+		<td id="SLIDES1TEXT">Welcome to the slideshow! If you see this then your browser doesn't support the text-changing features of the slideshow; however, all the text should appear below.</td>
+	</tr>
+</table>
+
+<!-- Maintable END -->
+</center>
+
+<script type="text/javascript">
+      //<![CDATA[
+      <!--
+      // Tell the slideshow which image and text id to change 
+      if (document.images)
+      {
+      SLIDES1.image = document.images.SLIDES1IMG;
+      SLIDES1.textid = "SLIDES1TEXT";
+
+      var fadein_opacity = 0;
+      var fadein_img = SLIDES1.image;
+      function fadein(opacity) {
+      if (typeof opacity != 'undefined') fadein_opacity = opacity;
+      if (fadein_opacity < 1 && fadein_img && fadein_img.style &&
+      typeof fadein_img.style.MozOpacity != 'undefined') {
+
+      fadein_opacity += .05;
+      fadein_img.style.MozOpacity = fadein_opacity;
+      setTimeout("fadein()", 50);
+      }
+      }
+
+      SLIDES1.post_update_hook = function() { fadein(.25); }
+
+      SLIDES1.update();
+      //SLIDES1.play();
+      }
+
+      // Display all of the text from the slideshow.
+      document.write("<UL>\n");
+      document.write(SLIDES1.get_all_text("<li>", "<p>\n"));
+      document.write("<" + "/UL>");
+
+      // The following function is normally left commented out.
+      // It is used only to produce the HTML that is copied
+      // into the NOSCRIPT section below, then it is commented out again.
+      // The HTML produced will contain all of the slideshow images,
+      // plus the text for each image.
+
+      //document.write("<PRE>" + SLIDES1.noscript() + "<" + "/PRE>");
+
+      //-->
+      //]]>
+</script><noscript><br/>
+</body>
+</html>
