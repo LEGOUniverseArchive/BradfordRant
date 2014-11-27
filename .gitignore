@@ -1,2 +1,5 @@
 *.db
 *.json
+Files
+*_files
+*.txt
