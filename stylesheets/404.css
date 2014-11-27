@@ -1,0 +1,16 @@
+body {
+    background: #000101 url('../images/background.jpg') no-repeat top center;
+    text-align: center;
+    font: 0.85em Arial, sans-serif;
+    color: #fff;
+}
+div {
+    width: 713px;
+    margin: 50px auto;
+    text-align: left;
+}
+a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.3em;
+}
