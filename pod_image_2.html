@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title>The Bradford Rant Institute of Cosmic Kinesis</title>
+<link rel="shortcut icon" href="images/favicon.gif" />
+
+<script src="javascripts/pod2/prototype.js" type="text/javascript"></script>
+<script src="javascripts/pod2/scriptaculous.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+</script>
+
+
+<style type="text/css">
+
+html,body{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	background: #192E31;
+			
+}
+
+#code_div{
+	position:absolute;
+	width:405px;
+	height:109px;
+	left:499px;
+	top:585px;
+	z-index:10;
+}
+
+#mainImage{
+	
+	width:1403px;
+	height:705px;
+	background-color:#192E31;
+}
+
+</style>
+		  
+
+</head>
+
+<body>
+
+<div id="mainImage">
+	<div id="code_div" ><img id="codeImg" src="images/pod_2/gnarled_text.gif" width="405" height="109" alt="code text" /></div>
+	<img src="images/pod_2/gnarledForest.jpg" width="1403" height="705" alt="main image" />
+</div>
+
+
+<script type="text/javascript">
+    	new Draggable('code_div');
+		
+		document.getElementById("code_div").onmouseover = jogDiv;
+
+ 		function jogDiv(){
+	 
+		var target = document.getElementById("code_div");
+		target.style["left"] = "495px";
+		target.style["top"]	= "583px";
+		
+		
+		document.getElementById("code_div").onmouseover = null; 
+	 
+ }
+		
+</script>
+
+</body>
+</html>
