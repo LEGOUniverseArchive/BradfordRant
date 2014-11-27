@@ -55,7 +55,7 @@ $().ready(function(){
         return false;
     })
     
-    $.ajax({
+    /*$.ajax({
         type: "POST",
         url: "http://192.168.11.9/brick/webcam",
         success: function(msg){
@@ -77,7 +77,7 @@ $().ready(function(){
                 }, 1000);
             })
         }
-    });
+    });*/
     
 });
 
